@@ -1,0 +1,29 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="dm-lpc55s16-keyscan-by-ezh" type="demo" format="projectfile" versionSchema="1.0.0" name="lpc55s16 keyscan by ezh">
+    <display_title>
+        EZH implements keyscan function in lpc5516
+    </display_title>
+    <overview>
+        <![CDATA[EZH, as a co-processor of LPC55, can quickly access IO. For mechanical repetitive tasks like keyscan, EZH provides high and low levels for each row of the keyboard, then quickly reads the level of each column, and finally determines which button is pressed. It is very suitable for keyboard applications.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+        <toolchain name="vscode"></toolchain>
+    </toolchains>
+    <families>
+        <family name="lpc"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="LPCXpresso55S16"></hw>
+    </nxp_compatible_hw>
+    <nxp_ebh_hw>
+        <ebh id="mikroe_rotary_y_click"></ebh>
+    </nxp_ebh_hw>
+    <peripherals>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="uart"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="industrial"></category>
+        <category name="hmi"></category>
+    </categories>
+</data:item>
